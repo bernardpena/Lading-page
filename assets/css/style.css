@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+    Geneva, Verdana, sans-serif; }
+    .header{
+    height: 10em;
+    padding: 5em;
+    font-size: 2em;
+    background-image: url("../img/fondo/pngtree-nice-blue-abstract-background-image_13353621.jpg"); background-size: cover; background-position: center;
+    }
+    .header h1{ margin: 0px;
+    }
+
+    .imagen-header{
+        width: 25rem;
+        border-radius: 50%;
+        
+    }
+
+    .footer {
+        height: 4em;
+        line-height: 3em;
+        background-color: rgb(185, 112, 41); color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: large;
+        }
