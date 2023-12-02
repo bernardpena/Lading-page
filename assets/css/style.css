@@ -1,26 +1,62 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
-    Geneva, Verdana, sans-serif; }
-    .header{
-    height: 10em;
-    padding: 5em;
-    font-size: 2em;
-    background-image: url("../img/fondo/pngtree-nice-blue-abstract-background-image_13353621.jpg"); background-size: cover; background-position: center;
-    }
-    .header h1{ margin: 0px;
+    Geneva, Verdana, sans-serif; 
+    background-image: url(../img/fondo/H5\ Background\,\ Cambio\ Gradual\,\ Simple\ Imágenes\ de\ fondo\ gratuitas\,\ Fondo\ Azul\ Degradado\ Foto\ de\ fondo\ PNG\ y\ vectores.jpeg);
+    background-size: cover;
     }
 
-    .imagen-header{
-        width: 25rem;
-        border-radius: 50%;
+    .header{
+        height: 10em;
+        padding: 5em;
+        font-size: 2em;
+        display: flex;
+    }
+
+    .header h1{ 
+        margin: 0px;
+        font-weight: bold;
+        font-size: 3.5rem;
+        color: #403278;
+        display:block;
+        margin:auto;
+    }
+
+    .img-header{
+        width: 30%;
+        border-radius: 30%;
+    }
+
+    .contenedor-1{
+        display: flex;
+        margin-top: 5rem;
+        margin-left: 10rem;
         
     }
+    .parrafo{
+        margin-left: 2.5rem;
+        text-align:center;
+        color: #403278;
+        line-height: 4.5rem;
+        letter-spacing: 0.1rem;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1.5rem;
+        position: relative;    
+    }
 
+    .cont1-img{
+        vertical-align: middle;
+        width: 20rem;
+        border-radius: 25%;
+    }
+
+
+    
     .footer {
-        height: 4em;
-        line-height: 3em;
-        background-color: rgb(185, 112, 41); color: white;
+        height: 4rem;
+        line-height: 3rem;
+        background-color: rgb(56, 12, 137);
         text-align: center;
         font-weight: bold;
-        font-size: large;
+        color: beige;
         }
